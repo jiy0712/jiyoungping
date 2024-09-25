@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/firstno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/startbackground">
+
+
+    <ImageView
+        android:id="@+id/heartsping"
+        android:layout_width="205dp"
+        android:layout_height="334dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="428dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/heartsping" />
+
+    <ImageView
+        android:id="@+id/dadaping"
+        android:layout_width="212dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dadaping" />
+
+    <ImageView
+        android:id="@+id/chachaping"
+        android:layout_width="199dp"
+        android:layout_height="311dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="284dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/chachaping" />
+
+    <ImageView
+        android:id="@+id/happying"
+        android:layout_width="250dp"
+        android:layout_height="434dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginBottom="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/happying" />
+
+    <ImageView
+        android:id="@+id/gogoping"
+        android:layout_width="198dp"
+        android:layout_height="347dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginBottom="156dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gogoping" />
+
+    <ImageView
+        android:id="@+id/lalaping"
+        android:layout_width="215dp"
+        android:layout_height="385dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginBottom="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lalaping" />
+
+    <ImageView
+        android:id="@+id/romi"
+        android:layout_width="355dp"
+        android:layout_height="441dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/romi" />
+
+    <ImageView
+        android:id="@+id/catchtinniping"
+        android:layout_width="263dp"
+        android:layout_height="335dp"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/catchtinniping" />
+
+    <ImageView
+        android:id="@+id/startbuttonbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonshape" />
+
+    <Button
+        android:id="@+id/firstyes"
+        android:layout_width="229dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="36dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:text="start"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

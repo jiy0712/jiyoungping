@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe4ee">
+
+    <ImageView
+        android:id="@+id/namebar"
+        android:layout_width="410dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonshape" />
+
+    <ImageView
+        android:id="@+id/retrybar"
+        android:layout_width="410dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/buttonshape" />
+
+    <Button
+        android:id="@+id/firstno"
+        android:layout_width="234dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="72dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/bm"
+        android:gravity="center"
+        android:text="다시 테스트"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="172dp"
+        android:fontFamily="@font/bm"
+        android:text="악동핑"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/giggleping"
+        android:layout_width="340dp"
+        android:layout_height="408dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/giggleping" />
+</androidx.constraintlayout.widget.ConstraintLayout>
